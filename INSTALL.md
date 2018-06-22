@@ -25,6 +25,6 @@
                   --enable-ngram-fsts \
                   --enable-pdt \
                   --enable-special
-      make -j4 && make install
+      make -j4 && sudo make install
 -   `sudo yum install -y re2-devel`
 -   `pipenv install --skip-lock http://www.opengrm.org/twiki/pub/GRM/PyniniDownload/pynini-1.9.1.tar.gz`
